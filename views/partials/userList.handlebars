@@ -1,0 +1,10 @@
+<ul>
+    {{#each users as |user|}}
+        <li>
+            <p>User id: {{ user.id }}</p>
+            <p>Username: {{toUpperCase user.username }}</p>
+            <p>User email: {{ user.email }}</p>
+            <P>User password: {{ user.password }}</P>
+        </li>
+    {{/each}}
+</ul>
